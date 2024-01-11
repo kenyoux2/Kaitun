@@ -4,8 +4,8 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "Fai Fao Hub",
-    SubTitle = "Version 2",
+    Title = "NhaCa Hub",
+    SubTitle = "Version 1.1",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
     Acrylic = false,
@@ -13,8 +13,20 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-    Main = Window:AddTab({ Title = "Main", Icon = "home" }),
-    Setting = Window:AddTab({ Title = "Setting", Icon = "settings" }),
+    Main = Window:AddTab({ Title = "Main"}),
+    Sub = Window:AddTab({ Title = "Sub Farm"}),
+    Item = Window:AddTab({ Title = "Item Farm"}),
+    Stats = Window:AddTab({ Title = "Stats"}),
+    Player = Window:AddTab({ Title = "Player"}),
+    Teleport = Window:AddTab({ Title = "Island"}),
+    Fruit = Window:AddTab({ Title = "Fruit"}),
+    Raid = Window:AddTab({ Title = "Raid"}),
+    Race = Window:AddTab({ Title = "Race V4"}),
+    Sea = Window:AddTab({ Title = "Sea Event"}),
+    Shop = Window:AddTab({ Title = "Shop"}),
+	Misc = Window:AddTab({ Title = "Misc"}),
+    Hop = Window:AddTab({ Title = "Hop"}),
+    Setting = Window:AddTab({ Title = "Setting"}),
 }
 local Options = Fluent.Options
 do
